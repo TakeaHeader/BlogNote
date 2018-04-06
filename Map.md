@@ -9,4 +9,4 @@
 一个HashMap的实例,有两个参数影响它的性能,一个是initial capacity(初始容量),load factor(加载因子)
 初始容量是哈希表在创建时的容量，加载因子 是哈希表在其容量自动增加之前可以达到多满的一种尺度
 
-[Map](https://github.com/TakeaHeader/BlogNote/blob/master/map.png)
+![Map](https://github.com/TakeaHeader/BlogNote/blob/master/map.png)
