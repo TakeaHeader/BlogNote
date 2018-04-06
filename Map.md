@@ -10,3 +10,7 @@
 初始容量是哈希表在创建时的容量，加载因子 是哈希表在其容量自动增加之前可以达到多满的一种尺度
 
 ![Map](https://github.com/TakeaHeader/BlogNote/blob/master/map.png)
+
+**clear()**
+
+HashMap清空Map的方法是直接将数组全部填充为null,size重置为0;
