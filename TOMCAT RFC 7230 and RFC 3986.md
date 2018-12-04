@@ -12,7 +12,7 @@
 在/conf/catalina.properties 中删除注释tomcat.util.http.parser.HttpParser.requestTargetAllow=| 并修改为需要忽略的特殊字符
 
 2.
-![修改文件]()
+![修改文件](https://github.com/TakeaHeader/BlogNote/blob/master/2.png)
 在/conf/server.xml  中<Connector  /> 中加入
           ```
        relaxedPathChars="{}&quot;"
@@ -28,4 +28,10 @@
             
 ***
 Tomcat 官方建议使用第二种方式 ，当然也可以更换低版本 tomcat
-            
+
+**TOMCAT源码解释**
+***
+
+！[修改文件](https://github.com/TakeaHeader/BlogNote/blob/master/3.png)
+！[修改文件](https://github.com/TakeaHeader/BlogNote/blob/master/4.png)
+！[修改文件](https://github.com/TakeaHeader/BlogNote/blob/master/5.png)
