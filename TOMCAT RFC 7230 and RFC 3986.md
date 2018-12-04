@@ -8,9 +8,7 @@
 **解决方法**
 ***
 1. 
-![修改文件]()
-
-
+！[修改文件](https://github.com/TakeaHeader/BlogNote/blob/master/1.png)
 在/conf/catalina.properties 中删除注释tomcat.util.http.parser.HttpParser.requestTargetAllow=| 并修改为需要忽略的特殊字符
 
 2.
